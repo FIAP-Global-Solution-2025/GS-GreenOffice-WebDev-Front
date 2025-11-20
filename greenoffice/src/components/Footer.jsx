@@ -15,7 +15,7 @@ const Footer = ({darkMode}) => {
 
             <div className="flex space-x-6">
               <a
-                href=""
+                href="https://github.com/FIAP-Global-Solution-2025/GS-GreenOffice-WebDev-Front"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <img
