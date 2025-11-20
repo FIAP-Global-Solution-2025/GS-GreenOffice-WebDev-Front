@@ -74,11 +74,10 @@ const Header = ({ darkMode, toggleDarkMode, user, onLogout }) => {
             {
               user ?
                 <Link
-                  to="/"
                   className="text-gray-600 hover:text-green-600"
                   onClick={onLogout}
                 >
-                  <button className="px-4 py-2 rounded-lg font-semibold bg-red-600 text-white">
+                  <button onClick={()=> window.location.reload()} className="px-4 py-2 rounded-lg font-semibold bg-red-600 text-white">
                     Sair
                   </button>
                 </Link> :
