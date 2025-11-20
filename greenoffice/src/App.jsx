@@ -41,7 +41,7 @@ function App() {
             />
             <Route
               path="/mensagens"
-              element={<Mensagens darkMode={darkMode} onLogin={handlerLogin} />}
+              element={<Mensagens darkMode={darkMode} onLogin={handlerLogin} user={user}/>}
             />
           </Routes>
         </main>

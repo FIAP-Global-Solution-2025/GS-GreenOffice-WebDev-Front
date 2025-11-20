@@ -11,24 +11,10 @@ const ProfessionalModal = ({
   darkMode,
   recomendations,
 }) => {
-  function funcaoPrivada() {
-    const result = recomendations.filter((r) => (
-      r.to == professional.id
-    ))
-    console.log(result)
-  }
-
   const [showMessageModal, setShowMessageModal] = useState(false);
 
   const handleSendMessageClick = () => {
     setShowMessageModal(true);
-  };
-
-  const handleMessageSent = () => {
-    setShowMessageModal(false);
-    if (onSendMessage) {
-      onSendMessage(professional.id);
-    }
   };
   if (!isOpen) return null;
   return (
@@ -139,7 +125,7 @@ const ProfessionalModal = ({
 
           <section>
             <h3 className="text-xl font-semibold mb-4">Quantidade de recomendações</h3>
-            <div className="flex flex-wrap gap-2" onClick={() => funcaoPrivada()}>
+            <div className="flex flex-wrap gap-2">
               {
                 recomendations.filter((r) => (
                   r.to == professional.id
