@@ -1,16 +1,22 @@
-# React + Vite
+Resumo do Projeto:
+Nosso Projeto começa com a Página Home, contendo um rodapé com um link para o repositório do GitHub, e também um cabeçalho contendo a logo, um menu para as páginas, o modo noturno, e um botão para conectar um usuário. Quando clicar em "Entrar", você é direcionado para a página de login.
+Na página Contribuidores, tem um filtro e uma barra de pesquisa para procurar um contribuidor. Quando clica em um contribuidor, abre uma descrição completa do usuário com um botão de "Recomendar" e outro para "Enviar Mensagem", porém esse botões só funcionam quando tem um usuário conectado.
+Quando um usuário está conectado, o botões "Recomendar" e "Enviar Mensagem" ficam funcionais. E também, quando há um usuário conectado surge mais uma página "Mensagens" para ver as mensagens recebidas. E também tem um botão no cabeçalho para sair da conta.
+E tudo isso está funcional com o menu hamburguer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Usuários e Senhas:
+- Os usuários estão no ProfessionalsData.json
+- As senhas podem ser qualquer uma, contanto que tenha 6 ou mais caracteres
 
-Currently, two official plugins are available:
+Instalação do projeto passo a passo:
+- Ter o node js na versao > 20
+- npm i
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link do Repositório:
+https://github.com/FIAP-Global-Solution-2025/GS-GreenOffice-WebDev-Front
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Integrantes:
+Levi de jesus RM:563279
+Luigi Borghi RM:563096
+Matheus Brasil Borges Sevilha Angelotti RM:561456
